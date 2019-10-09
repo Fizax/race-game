@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/RaceStartScene.unity
+- path: Assets/Scenes/LapScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
