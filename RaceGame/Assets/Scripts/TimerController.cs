@@ -34,7 +34,7 @@ public class TimerController : MonoBehaviour
             {
                 myTime = t;
             }
-            if (myTime < PlayerPrefs.GetFloat("HighScore", 0))
+            if (PlayerPrefs.GetFloat("HighScore", 0) == 0 ||  myTime < PlayerPrefs.GetFloat("HighScore", 0))
             {
                 PlayerPrefs.GetFloat("HighScore", t);
                 ScoreText.text = myTime.ToString();
