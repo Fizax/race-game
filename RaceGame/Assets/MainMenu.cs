@@ -11,6 +11,14 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+    public void PlayGame2()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+    }
+    public void PlayGame3()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
+    }
 
     public void OptionGame()
     {
@@ -20,6 +28,7 @@ public class MainMenu : MonoBehaviour
     {
         PlayerPrefs.DeleteAll();
     }
+
     public void QuitGame()
     {
         Debug.Log("QUIT!");
