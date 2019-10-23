@@ -1,5 +1,9 @@
 sceneSetups:
-- path: Assets/Scenes/Pathfinding.unity
+<<<<<<< HEAD
+- path: Assets/Scenes/LapScene.unity
+=======
+- path: Assets/Scenes/Drift Track.unity
+>>>>>>> master
   isLoaded: 1
   isActive: 1
   isSubScene: 0
